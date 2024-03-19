@@ -1,9 +1,9 @@
+import Recipe from './Componentes/recipe';
+
 export default function App() {
   return (
     <div>
-      <h1>
-        Simple Omelette Recipe
-      </h1>
+      <Recipe />
     </div>
   )
 }

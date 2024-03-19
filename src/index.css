@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+  --nutmeg-color: hsl(14, 45%, 36%);
+  --dark-raspberry-color: hsl(332, 51%, 32%);
+  --white-color: hsl(0, 0%, 100%);
+  --rose-white-color: hsl(330, 100%, 98%);
+  --eggshell-color: hsl(30, 54%, 90%);
+  --light-grey-color: hsl(30, 18%, 87%);
+  --wenge-brown-color: hsl(30, 10%, 34%);
+  --dark-charcoal-color: hsl(24, 5%, 18%);
+  --ff-Young-Serif :"Young Serif", serif;
+  --ff-Outfit: "Outfit", sans-serif;
+  --fw-regular: 400;
+  --fw-normal: 600;
+  --fw-bold: 700;
+}
+
+*,*::after,*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  font-family: var(--ff-Young-Serif);
+}
+
+h3, p {
+  font-family: var(--ff-Outfit)
+}
+
+h1,h2,h3 {
+  line-height: 100%;
+}
+
+p {
+  line-height: 150%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+body {
+  background-color: var();
+}
+
+/* Layaout */
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding-inline: 2rem;
+    padding-block: 2.5rem;
+  }
+}
+
+/* Important to show list style */
+ li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 1em;
+}
+
